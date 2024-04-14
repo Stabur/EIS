@@ -37,16 +37,16 @@
 /*
 $hostname = $_SERVER['SERVER_ADDR'];
 echo $hostname;
-if ($hostname=='10.10.10.6'){
+if ($hostname == '10.10.10.6'){
   header("Location: ./tasks_view_dep.php?id=6");
 }
-if ($hostname=='10.10.10.5'){
+if ($hostname == '10.10.10.5'){
   header("Location: ./tasks_view_dep.php?id=5");
 }
-if ($hostname=='10.10.10.4'){
+if ($hostname == '10.10.10.4'){
   header("Location: ./tasks_view_dep.php?id=4");
 }
-*/
+
 function get_client_ip_env() {
     $ipaddress = '';
     if (getenv('HTTP_CLIENT_IP'))
@@ -67,6 +67,7 @@ function get_client_ip_env() {
     return $ipaddress;
 }
 
-echo "&nbsp;IP Address: <b>" . get_client_ip_env() ;
-echo "</b>";
+echo "&nbsp;IP Address: " . get_client_ip_env();
+
+*/
 ?>

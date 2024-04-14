@@ -42,13 +42,13 @@
 /*
 $hostname = $_SERVER["REMOTE_ADDR"];
 echo $hostname;
-if ($hostname=='10.10.10.6'){
+if ($hostname == '10.10.10.6'){
   header("Location: ./tasks_view_dep.php?id=6");
 }
-if ($hostname=='10.10.10.5'){
+if ($hostname == '10.10.10.5'){
   header("Location: ./tasks_view_dep.php?id=5");
 }
-if ($hostname=='10.10.10.4'){
+if ($hostname == '10.10.10.4'){
   header("Location: ./tasks_view_dep.php?id=4");
 }
 function getIpAddress()
@@ -82,7 +82,6 @@ function getIpAddress()
     return $ipAddress;
 }
 
-echo "&nbsp;IP Address: <b>" . getIpAddress() ;
-echo "</b>";
+echo "&nbsp;IP Address: " . getIpAddress();
 */
 ?>

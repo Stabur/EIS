@@ -1,6 +1,6 @@
 <footer>
   <div class="container">
-    <div class="footer-col"><span>CRM StaBur © 2023</span></div>
+    <div class="footer-col"><span>EIS StaBur © 2023</span></div>
     <div class="footer-col">
       <div class="social-bar-wrap">
         <p>Mecто для ссылок</p>

@@ -8,8 +8,8 @@
   <meta http-equiv="expires" content="0">
   <meta name="author" content="StaBur | https://t.me/StaBur">
   <meta name="reply-to" content="burnov80@gmail.com">
-  <meta name="copyright" content="StaBur CRM">
-  <title><? echo "Адаптивная вёрстка CRM от StaBur"; ?></title>
+  <meta name="copyright" content="Employee Interaction System">
+  <title><? echo "Система Взаимодействия Сотрудников для малого и среднего предприятия"; ?></title>
   <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,700,700italic|Playfair+Display:400,700&subset=latin,cyrillic">
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
@@ -39,7 +39,7 @@
     </nav>
   </header>
 <?php
-
+/*
 $hostname = $_SERVER["REMOTE_ADDR"];
 echo $hostname;
 if ($hostname=='10.10.10.6'){
@@ -84,4 +84,5 @@ function getIpAddress()
 
 echo "&nbsp;IP Address: <b>" . getIpAddress() ;
 echo "</b>";
+*/
 ?>

@@ -209,7 +209,6 @@ CREATE TABLE `worker` (
 
 INSERT INTO `worker` (`id_worker`, `surname_worker`, `name_worker`, `patronymic_worker`, `position_worker`, `department_worker`, `phone_worker`, `login_worker`, `password_worker`, `pass_nocript_worker`, `email_worker`, `messager_worker`, `description_worker`, `access_level`) VALUES
 (1, 'Тестов', 'Тест', 'Тестович', 'Начальник участка ЧПУ', 'Отдел ЧПУ', '+7(111)111-11-11', 'test', '$2y$10$/C9LAk/5oJHhc8JEb9uEKeQ4x2FlG5Ykv4x1pwmaClHw.RPOkmfcm', 'test', 'test@test.ru', 'test', 'test', 15),
-(4, 'Тестов', 'Тест', 'Тестович', 'Оператор станка ЧПУ', 'Отдел ЧПУ', '+7(777)777-77-77', 'tester', '$2y$10$1hfwa7EbxVT0tljtG2MTz./R7HnCTWzGLg8NhEpWgLUK85MwNTNhy', 'tester', 'tester@tester.ru', 'tester', 'tester', 10);
 
 --
 -- Индексы сохранённых таблиц
